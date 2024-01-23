@@ -127,6 +127,9 @@ footer a:hover {
 footer {
   background: #00204a;
   color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .socials {
@@ -136,8 +139,13 @@ footer {
 
 .socials li {
   display: inline-block;
+  margin-left: 10px;
 }
 
 .socials img {
   width: 32px;
+}
+
+.social img:hover {
+  opacity: 0.5;
 }
