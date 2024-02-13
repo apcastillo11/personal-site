@@ -60,7 +60,9 @@ a {
 }
 
 a:hover {
-  color: #ffe9e3;
+  background-color: #fff;
+  border: 1px solid #00204a;
+  color: #00204a;
 }
 
 footer a {
@@ -93,7 +95,7 @@ footer a:hover {
 /*HOME
 -----------------------*/
 .home {
-  background: url(../images/bg-sunset-ocean.jpg);
+  background: url(../images/bg-starry-night.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -105,7 +107,7 @@ footer a:hover {
 }
 
 .content-bg {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.6);
   padding: 30px;
 }
 
@@ -122,7 +124,7 @@ footer a:hover {
 /*RESUME
 -----------------------*/
 .resume header::before {
-  background: url(../images/bg-sunset-ocean.jpg) center;
+  background: url(../images/bg-starry-night.jpg) center;
   background-size: cover;
   content: "";
   display: block;
