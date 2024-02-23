@@ -113,6 +113,11 @@ footer a:hover {
   flex: 1 0 auto;
 }
 
+.header-content {
+  display: flex;
+  justify-content: space-around;
+}
+
 .content-bg {
   background: rgba(255, 255, 255, 0.6);
   padding: 30px;
@@ -125,6 +130,12 @@ footer a:hover {
 
   .content-bg {
     padding: 20px;
+  }
+
+  .header-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
