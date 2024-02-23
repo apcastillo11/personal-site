@@ -103,7 +103,7 @@ footer a:hover {
 -----------------------*/
 .home {
   background: url(../images/bg-starry-night.jpg);
-  background-repeat: no-repeat;
+  /*background-repeat: no-repeat;*/
   background-size: cover;
   display: flex;
   flex-direction: column;
